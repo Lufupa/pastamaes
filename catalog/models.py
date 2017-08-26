@@ -9,6 +9,6 @@ class Product(models.Model):
     description = models.TextField()
     price = models.DecimalField(decimal_places=2, max_digits=20)
 
-    def_str_(self):
+    def nomes (self):
         return self.name
 
